@@ -13,9 +13,10 @@
 [![Instagram](https://img.shields.io/badge/Instagram-@techtadka360official-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/techtadka360official)
 [![Facebook](https://img.shields.io/badge/Facebook-TechTadka360-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/share/1EkKAJNLdB/)
 
-![Demo](images/demo.jpg)
+<img width="577" height="874" alt="Screenshot 2026-11-08 065424" src="https://github.com/user-attachments/assets/5aaefb0c-787c-4e72-a67b-0735d9104b8d" />
 
-### 🎬 [Watch the full build video on YouTube](YOUR_VIDEO_LINK_HERE)
+
+### 🎬 [Watch the full build video on YouTube](https://youtube.com/shorts/fkrKtZX8gak?si=ffOCqLUWNbuwc65p)
 
 </div>
 
