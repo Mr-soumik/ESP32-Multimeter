@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <g id="gnd" stroke="#94a3b8" stroke-width="2.5" stroke-linecap="round">
+      <line x1="0" y1="0" x2="0" y2="8"/>
+      <line x1="-14" y1="8" x2="14" y2="8"/>
+      <line x1="-9" y1="14" x2="9" y2="14"/>
+      <line x1="-4" y1="20" x2="4" y2="20"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="800" fill="#0b1220"/>
+  <text x="600" y="44" text-anchor="middle" font-size="28" font-weight="bold" fill="#f8fafc">ESP32 DIY MULTIMETER - CIRCUIT DIAGRAM</text>
+  <text x="600" y="72" text-anchor="middle" font-size="15" fill="#94a3b8">TechTadka360  |  DC Voltage  +  Continuity / Resistance  +  LED / Diode Test</text>
+
+  <text x="40" y="118" font-size="14" font-weight="bold" fill="#60a5fa">1  DC VOLTAGE INPUT (0-15 V)</text>
+  <text x="40" y="298" font-size="14" font-weight="bold" fill="#60a5fa">2  CONTINUITY / RESISTANCE / LED TEST</text>
+  <text x="40" y="588" font-size="14" font-weight="bold" fill="#60a5fa">3  COMMON GROUND</text>
+
+  <rect x="470" y="110" width="220" height="590" rx="12" fill="#111c33" stroke="#3b82f6" stroke-width="2.5"/>
+  <text x="580" y="140" text-anchor="middle" font-size="26" font-weight="bold" fill="#60a5fa">ESP32</text>
+  <text x="580" y="665" text-anchor="middle" font-size="12" fill="#94a3b8">GPIO2 = onboard LED (continuity blink)</text>
+  <text x="580" y="685" text-anchor="middle" font-size="12" fill="#94a3b8">Powered through USB</text>
+
+  <text x="482" y="165" font-size="13" fill="#e5e7eb">GPIO34</text>
+  <text x="482" y="345" font-size="13" fill="#e5e7eb">GPIO32</text>
+  <text x="482" y="435" font-size="13" fill="#e5e7eb">GPIO33</text>
+  <text x="482" y="515" font-size="13" fill="#e5e7eb">GPIO25</text>
+  <text x="482" y="635" font-size="13" fill="#e5e7eb">GND</text>
+
+  <text x="678" y="185" text-anchor="end" font-size="13" fill="#e5e7eb">3V3</text>
+  <text x="678" y="225" text-anchor="end" font-size="13" fill="#e5e7eb">GND</text>
+  <text x="678" y="265" text-anchor="end" font-size="13" fill="#e5e7eb">GPIO21</text>
+  <text x="678" y="305" text-anchor="end" font-size="13" fill="#e5e7eb">GPIO22</text>
+  <text x="678" y="425" text-anchor="end" font-size="13" fill="#e5e7eb">GPIO4</text>
+  <text x="678" y="455" text-anchor="end" font-size="13" fill="#e5e7eb">GND</text>
+  <text x="678" y="555" text-anchor="end" font-size="13" fill="#e5e7eb">GPIO26</text>
+  <text x="678" y="585" text-anchor="end" font-size="13" fill="#e5e7eb">GND</text>
+
+  <rect x="40" y="140" width="110" height="40" rx="6" fill="#7f1d1d" stroke="#ef4444" stroke-width="2"/>
+  <text x="95" y="165" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">V JACK  +</text>
+  <line x1="150" y1="160" x2="210" y2="160" stroke="#ef4444" stroke-width="3"/>
+  <rect x="210" y="146" width="80" height="28" rx="4" fill="#1e293b" stroke="#fbbf24" stroke-width="2"/>
+  <text x="250" y="165" text-anchor="middle" font-size="14" font-weight="bold" fill="#fbbf24">82k</text>
+  <line x1="290" y1="160" x2="470" y2="160" stroke="#ef4444" stroke-width="3"/>
+  <circle cx="390" cy="160" r="4.5" fill="#ef4444"/>
+  <line x1="390" y1="160" x2="390" y2="185" stroke="#94a3b8" stroke-width="3"/>
+  <rect x="377" y="185" width="26" height="56" rx="4" fill="#1e293b" stroke="#fbbf24" stroke-width="2"/>
+  <text x="367" y="208" text-anchor="end" font-size="14" font-weight="bold" fill="#fbbf24">20k</text>
+  <text x="367" y="226" text-anchor="end" font-size="11" fill="#94a3b8">(2 x 10k</text>
+  <text x="367" y="240" text-anchor="end" font-size="11" fill="#94a3b8">in series)</text>
+  <line x1="390" y1="241" x2="390" y2="260" stroke="#94a3b8" stroke-width="3"/>
+  <use href="#gnd" x="390" y="260"/>
+  <circle cx="470" cy="160" r="5" fill="#ef4444"/>
+
+  <rect x="40" y="320" width="110" height="40" rx="6" fill="#7f1d1d" stroke="#ef4444" stroke-width="2"/>
+  <text x="95" y="345" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">OHM JACK  +</text>
+  <line x1="150" y1="340" x2="470" y2="340" stroke="#ef4444" stroke-width="3"/>
+  <circle cx="330" cy="340" r="4.5" fill="#ef4444"/>
+  <circle cx="470" cy="340" r="5" fill="#ef4444"/>
+
+  <line x1="330" y1="340" x2="330" y2="510" stroke="#f59e0b" stroke-width="3"/>
+  <circle cx="330" cy="430" r="4.5" fill="#f59e0b"/>
+  <circle cx="330" cy="510" r="4.5" fill="#f59e0b"/>
+
+  <line x1="330" y1="430" x2="370" y2="430" stroke="#f59e0b" stroke-width="3"/>
+  <rect x="370" y="416" width="70" height="28" rx="4" fill="#1e293b" stroke="#fbbf24" stroke-width="2"/>
+  <text x="405" y="435" text-anchor="middle" font-size="14" font-weight="bold" fill="#fbbf24">10k</text>
+  <line x1="440" y1="430" x2="470" y2="430" stroke="#f59e0b" stroke-width="3"/>
+  <circle cx="470" cy="430" r="5" fill="#f59e0b"/>
+  <text x="405" y="408" text-anchor="middle" font-size="11" fill="#94a3b8">high range</text>
+
+  <line x1="330" y1="510" x2="370" y2="510" stroke="#f59e0b" stroke-width="3"/>
+  <rect x="370" y="496" width="70" height="28" rx="4" fill="#1e293b" stroke="#fbbf24" stroke-width="2"/>
+  <text x="405" y="515" text-anchor="middle" font-size="14" font-weight="bold" fill="#fbbf24">1k</text>
+  <line x1="440" y1="510" x2="470" y2="510" stroke="#f59e0b" stroke-width="3"/>
+  <circle cx="470" cy="510" r="5" fill="#f59e0b"/>
+  <text x="405" y="488" text-anchor="middle" font-size="11" fill="#94a3b8">low range + LED test</text>
+
+  <rect x="40" y="610" width="110" height="40" rx="6" fill="#1f2937" stroke="#94a3b8" stroke-width="2"/>
+  <text x="95" y="635" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">BLACK PROBE</text>
+  <line x1="150" y1="630" x2="470" y2="630" stroke="#94a3b8" stroke-width="3"/>
+  <circle cx="470" cy="630" r="5" fill="#94a3b8"/>
+  <text x="310" y="620" text-anchor="middle" font-size="11" fill="#94a3b8">common ground for all modes</text>
+
+  <rect x="900" y="130" width="190" height="200" rx="10" fill="#111c33" stroke="#38bdf8" stroke-width="2.5"/>
+  <text x="995" y="156" text-anchor="middle" font-size="16" font-weight="bold" fill="#38bdf8">OLED 0.96" SSD1306</text>
+  <text x="915" y="185" font-size="13" fill="#e5e7eb">VCC</text>
+  <text x="915" y="225" font-size="13" fill="#e5e7eb">GND</text>
+  <text x="915" y="265" font-size="13" fill="#e5e7eb">SDA</text>
+  <text x="915" y="305" font-size="13" fill="#e5e7eb">SCL</text>
+  <line x1="690" y1="180" x2="900" y2="180" stroke="#ef4444" stroke-width="3"/>
+  <line x1="690" y1="220" x2="900" y2="220" stroke="#94a3b8" stroke-width="3"/>
+  <line x1="690" y1="260" x2="900" y2="260" stroke="#22c55e" stroke-width="3"/>
+  <line x1="690" y1="300" x2="900" y2="300" stroke="#22c55e" stroke-width="3"/>
+  <circle cx="690" cy="180" r="5" fill="#ef4444"/><circle cx="900" cy="180" r="5" fill="#ef4444"/>
+  <circle cx="690" cy="220" r="5" fill="#94a3b8"/><circle cx="900" cy="220" r="5" fill="#94a3b8"/>
+  <circle cx="690" cy="260" r="5" fill="#22c55e"/><circle cx="900" cy="260" r="5" fill="#22c55e"/>
+  <circle cx="690" cy="300" r="5" fill="#22c55e"/><circle cx="900" cy="300" r="5" fill="#22c55e"/>
+
+  <rect x="900" y="380" width="190" height="110" rx="10" fill="#111c33" stroke="#a78bfa" stroke-width="2.5"/>
+  <text x="995" y="403" text-anchor="middle" font-size="16" font-weight="bold" fill="#a78bfa">MODE BUTTON</text>
+  <text x="915" y="425" font-size="13" fill="#e5e7eb">Leg A</text>
+  <text x="915" y="455" font-size="13" fill="#e5e7eb">Leg B</text>
+  <text x="995" y="480" text-anchor="middle" font-size="11" fill="#94a3b8">short press = next mode</text>
+  <line x1="690" y1="420" x2="900" y2="420" stroke="#22c55e" stroke-width="3"/>
+  <line x1="690" y1="450" x2="900" y2="450" stroke="#94a3b8" stroke-width="3"/>
+  <circle cx="690" cy="420" r="5" fill="#22c55e"/><circle cx="900" cy="420" r="5" fill="#22c55e"/>
+  <circle cx="690" cy="450" r="5" fill="#94a3b8"/><circle cx="900" cy="450" r="5" fill="#94a3b8"/>
+
+  <rect x="900" y="520" width="190" height="100" rx="10" fill="#111c33" stroke="#fb923c" stroke-width="2.5" stroke-dasharray="7 5"/>
+  <text x="995" y="540" text-anchor="middle" font-size="15" font-weight="bold" fill="#fb923c">BUZZER (optional)</text>
+  <text x="915" y="555" font-size="13" fill="#e5e7eb">+</text>
+  <text x="915" y="585" font-size="13" fill="#e5e7eb">-</text>
+  <text x="995" y="608" text-anchor="middle" font-size="11" fill="#94a3b8">active buzzer</text>
+  <line x1="690" y1="550" x2="900" y2="550" stroke="#22c55e" stroke-width="3"/>
+  <line x1="690" y1="580" x2="900" y2="580" stroke="#94a3b8" stroke-width="3"/>
+  <circle cx="690" cy="550" r="5" fill="#22c55e"/><circle cx="900" cy="550" r="5" fill="#22c55e"/>
+  <circle cx="690" cy="580" r="5" fill="#94a3b8"/><circle cx="900" cy="580" r="5" fill="#94a3b8"/>
+
+  <g font-size="13" fill="#cbd5e1">
+    <line x1="60" y1="735" x2="95" y2="735" stroke="#ef4444" stroke-width="3"/>
+    <text x="103" y="740">Power / probe +</text>
+    <line x1="260" y1="735" x2="295" y2="735" stroke="#94a3b8" stroke-width="3"/>
+    <text x="303" y="740">Ground</text>
+    <line x1="400" y1="735" x2="435" y2="735" stroke="#22c55e" stroke-width="3"/>
+    <text x="443" y="740">Signal</text>
+    <line x1="540" y1="735" x2="575" y2="735" stroke="#f59e0b" stroke-width="3"/>
+    <text x="583" y="740">Reference resistors</text>
+  </g>
+  <text x="600" y="780" text-anchor="middle" font-size="13" fill="#64748b">github.com/Mr-soumik   |   YouTube and Instagram: @techtadka360official   |   No capacitor or ADC module needed</text>
+</svg>
